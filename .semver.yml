@@ -7,6 +7,7 @@ semver:
   minor:
     - lipstick
     - sparkles
+    - zap
   patch:
     - art
     - bug
