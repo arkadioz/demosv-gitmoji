@@ -8,15 +8,15 @@
             ":boom:"
           ],
           "minor": [
-            ":sparkles:",
-            ":zap:"
+            ":ambulance:"
           ],
           "patch": [
             ":bug:",
-            ":ambulance:",
-            ":lock:"
+            ":lock:",
+            ":zap:"
           ],
           "none": [
+            ":sparkles:",
             ":pencil2:"
           ],
           "ignored": [
