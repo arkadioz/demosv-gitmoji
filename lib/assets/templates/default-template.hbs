@@ -46,4 +46,11 @@
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
+
+{{#if other}}
+## Other Changes
+{{#each other}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
 {{/with}}

@@ -15,6 +15,12 @@
             ":bug:",
             ":ambulance:",
             ":lock:"
+          ],
+          "none": [
+            ":pencil2:"
+          ],
+          "ignored": [
+            ":construction:"
           ]
         },
         "releaseNotes": {

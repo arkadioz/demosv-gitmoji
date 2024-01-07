@@ -1,2 +1,8 @@
 Gitmoji Notes:
 
+* Can not generate changelog
+* Configuration is highly suggested to be done with .js instead of .json in order to properly manage templates, which can be additional complexity
+
+Pending:
+
+* Check if there is a way to include author on commits (release notes), maybe with substitutions like in the maven changelog plugin
