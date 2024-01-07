@@ -6,8 +6,11 @@ branches: [ main ]
 semver:
   minor:
     - lipstick
+    - sparkles
   patch:
     - art
+    - bug
+    - lock
   none:
     - pencil2
   ignore: # not add in release-template.hbs
