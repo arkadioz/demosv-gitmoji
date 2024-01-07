@@ -8,19 +8,12 @@
             ":boom:"
           ],
           "minor": [
-            ":sparkles:"
+            ":ambulance:"
           ],
           "patch": [
             ":bug:",
             ":lock:",
-            ":ambulance:",
             ":zap:"
-          ],
-          "none": [
-            ":pencil2:"
-          ],
-          "ignored": [
-            ":construction:"
           ]
         },
         "releaseNotes": {
