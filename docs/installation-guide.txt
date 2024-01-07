@@ -7,3 +7,4 @@ Pending:
 
 * Check if there is a way to include author on commits (release notes), maybe with substitutions like in the maven changelog plugin
 * Check what is the true use of ignored and none in the config.
+* How to make the other changes section (not matching any of the emojis defined)
