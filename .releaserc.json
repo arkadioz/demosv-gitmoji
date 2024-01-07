@@ -18,9 +18,9 @@
           ]
         },
         "releaseNotes": {
-          "template": "default-template.hbs",
+          "template": "/default-template.hbs",
           "partials": {
-            "commitTemplate": "commit-template.hbs"
+            "commitTemplate": "/commit-template.hbs"
           },
           "helpers": {
             "datetime": "function (format = 'UTC:yyyy-mm-dd') {\n  return dateFormat(new Date(), format);\n}"
