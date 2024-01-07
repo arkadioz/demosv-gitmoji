@@ -6,5 +6,8 @@ Gitmoji Notes:
 Pending:
 
 * Check if there is a way to include author on commits (release notes), maybe with substitutions like in the maven changelog plugin
-* Check what is the true use of ignored and none in the config.
 * How to make the other changes section (not matching any of the emojis defined)
+
+Solved:
+
+* Use of none in the config: the emojis that are in here wont be taken in count for any version update, for now the ignore parameter has no use that I can see
