@@ -7,8 +7,8 @@ const readFileAsync = promisify(require('fs').readFile)
 // Given a `const` variable `TEMPLATE_DIR` which points to "<semantic-release-gitmoji>/lib/assets/templates"
 
 // the *.hbs template and partials should be passed as strings of contents
-const template = readFileAsync(path.join('/lib/assets/templates', 'default-template.hbs'))
-const commitTemplate = readFileAsync(path.join('/lib/assets/templates', 'commit-template.hbs'))
+const template = readFileAsync(path.join('demosv-gitmoji/lib/assets/templates', 'default-template.hbs'))
+const commitTemplate = readFileAsync(path.join('demosv-gitmoji/lib/assets/templates', 'commit-template.hbs'))
 
 module.exports = {
   plugins: [
