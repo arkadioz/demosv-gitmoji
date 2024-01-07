@@ -1,37 +1,55 @@
-const path = require('path')
-const fs = require('fs')
+// in ".releaserc.js" or "release.config.js"
 
-const tplFile = path.resolve(__dirname, 'build/release-notes.hbs')
+const { promisify } = require('util')
+const dateFormat = require('dateformat')
+const readFileAsync = promisify(require('fs').readFile)
+
+// Given a `const` variable `TEMPLATE_DIR` which points to "<semantic-release-gitmoji>/lib/assets/templates"
+
+// the *.hbs template and partials should be passed as strings of contents
+const template = readFileAsync(path.join(TEMPLATE_DIR, 'default-template.hbs'))
+const commitTemplate = readFileAsync(path.join(TEMPLATE_DIR, 'commit-template.hbs'))
 
 module.exports = {
-  branches: [
-    "main",
-  ],
   plugins: [
     [
-      'semantic-release-gitmoji',
-      {
+      'semantic-release-gitmoji', {
         releaseRules: {
-          patch: {
-            include: [':bento:', ':arrow_up:', ':lock:'],
-          },
+          major: [ ':boom:' ],
+          minor: [ ':sparkles:' ],
+          patch: [
+            ':bug:',
+            ':ambulance:',
+            ':lock:',
+            ':zap:'
+          ]
         },
         releaseNotes: {
-          template: fs.readFileSync(tplFile, 'utf-8'),
+          template,
+          partials: { commitTemplate },
+          helpers: {
+            datetime: function (format = 'UTC:yyyy-mm-dd') {
+              return dateFormat(new Date(), format)
+            }
+          },
+          issueResolution: {
+            template: '{baseUrl}/{owner}/{repo}/issues/{ref}',
+            baseUrl: 'https://github.com',
+            source: 'github.com',
+            removeFromCommit: false,
+            regex: /#\d+/g
+          }
         }
       }
     ],
     '@semantic-release/github',
-    '@semantic-release/npm',
-    [
-      '@semantic-release/git',
-      {
-        message: [
-          ':bookmark: v${nextRelease.version} [skip ci]',
-          '',
-          'https://github.com/momocow/semantic-release-gitmoji/releases/tag/${nextRelease.gitTag}'
-        ].join('\n')
-      }
-    ]
-  ]
+    '@semantic-release/npm'
+  ],
+     "branches": [
+       "main",
+       {
+         "name": "beta",
+         "prerelease": true
+       }
+     ]
 }
