@@ -10,4 +10,4 @@ Pending:
 
 Solved:
 
-* Use of none in the config: the emojis that are in here wont be taken in count for any version update, for now the ignore parameter has no use that I can see.
+* Use of none in the config: the emojis that are in here wont be taken in count for any version update, and according to the documentation ignored is used to not be taken in count and also not included in the release-notes.
