@@ -1,4 +1,4 @@
-name: Release with gitmoji working # it is not reading the semver yml file at root for some reason
+name: Release with gitmoji testing # it is not reading the semver yml file at root for some reason
 on:
   workflow_dispatch:
     branches:
