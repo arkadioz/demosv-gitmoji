@@ -12,6 +12,13 @@
 {{/each}}
 {{/if}}
 
+{{#if zap}}
+## Zappy New Features
+{{#each zap}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
 {{#if bug}}
 ## 🐛 Bug Fixes
 {{#each bug}}

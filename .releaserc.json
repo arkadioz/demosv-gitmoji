@@ -21,16 +21,6 @@
           "template": "{{#if compareUrl}}\n# [v{{nextRelease.version}}]({{compareUrl}}) ({{datetime \"UTC:yyyy-mm-dd\"}})\n{{else}}\n# v{{nextRelease.version}} ({{datetime \"UTC:yyyy-mm-dd\"}})\n{{/if}}\n\n{{#with commits}}\n{{#if sparkles}}\n## ✨ New Features\n{{#each sparkles}}\n- {{> commitTemplate}}\n{{/each}}\n{{/if}}\n\n{{#if bug}}\n## \uD83D\uDC1B Bug Fixes\n{{#each bug}}\n- {{> commitTemplate}}\n{{/each}}\n{{/if}}\n\n{{#if ambulance}}\n## \uD83D\uDE91 Critical Hotfixes\n{{#each ambulance}}\n- {{> commitTemplate}}\n{{/each}}\n{{/if}}\n\n{{#if lock}}\n## \uD83D\uDD12 Security Issues\n{{#each lock}}\n- {{> commitTemplate}}\n{{/each}}\n{{/if}}\n\n{{#if boom}}\n## \uD83D\uDCA5 Breaking Changes\n{{#each boom}}\n- {{> commitTemplate}}\n{{/each}}\n{{/if}}\n{{/with}}",
           "partials": {
             "commitTemplate": "[`{{commit.short}}`](https://github.com/{{owner}}/{{repo}}/commit/{{commit.short}}) {{subject}} {{#if issues}}(Issues:{{#each issues}} [`{{text}}`]({{link}}){{/each}}){{/if}}{{#if wip}}{{#each wip}}\n    - [`{{commit.short}}`](https://github.com/{{owner}}/{{repo}}/commit/{{commit.short}}) {{subject}}{{/each}}\n{{/if}}"
-          },
-          "helpers": {
-            "datetime": "function (format = 'UTC:yyyy-mm-dd') {\n  return dateFormat(new Date(), format);\n}"
-          },
-          "issueResolution": {
-            "template": "{baseUrl}/{owner}/{repo}/issues/{ref}",
-            "baseUrl": "https://github.com",
-            "source": "github.com",
-            "removeFromCommit": false,
-            "regex": "/#\\d+/g"
           }
         }
       }
