@@ -1,3 +1,4 @@
+# remember that the workflow needs to have permissions to write, found at settings of the repository config
 name: WORKING CI CONFIG 1
 
 on:
