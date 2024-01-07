@@ -24,7 +24,6 @@ jobs:
       - name: Install semantic-release
         run: npm install semantic-release @semantic-release/github semantic-release-gitmoji
       - name: Release
-        #working-directory: ./.release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
