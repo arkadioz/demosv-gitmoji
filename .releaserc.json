@@ -1,0 +1,90 @@
+{
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits",
+        "releaseRules": [
+          {
+            "breaking": true,
+            "release": "major"
+          },
+          {
+            "type": "refactor",
+            "release": "patch"
+          }
+        ]
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits",
+        "presetConfig": {
+          "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commits/{{hash}}",
+          "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}..{{currentTag}}",
+          "types": [
+            {
+              "type": "feat",
+              "section": "\uD83D\uDE80 New Feature(s)"
+            },
+            {
+              "type": "fix",
+              "section": "\uD83D\uDC1B Bug Fix(es)"
+            },
+            {
+              "type": "docs",
+              "section": "\uD83D\uDCDD Documentation Changes"
+            },
+            {
+              "type": "refactor",
+              "section": "\uD83D\uDC85 Code Refactor"
+            },
+            {
+              "type": "test",
+              "section": "\uD83D\uDCE1 Tests"
+            },
+            {
+              "type": "perf",
+              "section": "🚄️ Performance Improvement(s)"
+            },
+            {
+              "type": "build",
+              "section": "🛠️ Build system"
+            }
+          ]
+        }
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "mvn versions:set -DnewVersion=\"${nextRelease.version}\" && mvn clean install"
+      }
+    ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "docs/CHANGELOG.md",
+        "changelogTitle": "# Semantic Versioning Changelog"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [
+          "**/pom.xml",
+          "docs/CHANGELOG.md"
+        ],
+        "message": "chore(release): ${nextRelease.version}"
+      }
+    ]
+  ],
+  "branches": [
+    "main",
+    {
+      "name": "beta",
+      "prerelease": true
+    }
+  ]
+}
