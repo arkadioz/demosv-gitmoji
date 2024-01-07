@@ -39,4 +39,18 @@
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
+
+{{#if zap}}
+## ⚡ Enhancements
+{{#each zap}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
+
+{{#if pencil}}
+## 📝 Documentation Changes
+{{#each pencil}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
 {{/with}}
