@@ -38,7 +38,7 @@ module.exports = {
                   commitTemplate
                },
                helpers: {
-                  function formatDate(date) {
+                  formatDate: function(date) {
                     return dateFormat(date, 'yyyy-mm-dd HH:MM:ss');
                   },
                   split: function(string) {
