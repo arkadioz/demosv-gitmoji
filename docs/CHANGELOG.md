@@ -1,5 +1,18 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v5.0.0](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.31...v5.0.0) (2024-01-08) 🔖
+
+## 💥 Breaking Changes
+- [`225a47a`](https://github.com/arkadioz/demosv-gitmoji/commit/225a47a) 5.0.0 is the best working config atm
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 21:34:06 GMT+0000 (Coordinated Universal Time)
+
+## 📝 Documentation Changes
+- [`0b0f60a`](https://github.com/arkadioz/demosv-gitmoji/commit/0b0f60a) best working config is 5.0.0
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 21:34:34 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description: updated the guide to include best working config
+
 # 🎉 [v4.1.31](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.30...v4.1.31) (2024-01-08) 🔖
 
 ## 🐛 Bug Fixes
