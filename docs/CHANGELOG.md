@@ -4,7 +4,7 @@
 
 ## ⚡ Enhancements
 - [`dfce796`](https://github.com/arkadioz/demosv-gitmoji/commit/dfce796) try to add more emojis in another way
-  - &#129489;&#8205;&#128187; '\u{1F9D1}\u{200D}\u{1F4BB}' \u{1F9D1}\u{200D}\u{1F4BB} Author: arkadioz
+  - &#129489;&#8205;&#128187; &#x1F9D1;&#x200D;&#x1F4BB; Author: arkadioz
   - 📅 Date: Mon Jan 08 2024 19:48:02 GMT+0000 (Coordinated Universal Time)
   - 📃 Description: added some emojis
 
