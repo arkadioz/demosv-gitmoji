@@ -19,4 +19,12 @@ public class StringOpsController {
         sb.append(string);
         return ResponseEntity.ok(string.contentEquals(sb.reverse()));
     }
+
+    @GetMapping("/reverse/{string}")
+    public ResponseEntity<String> reverse(@PathVariable String string) {
+        log.info("Reversing {}", string);
+        StringBuilder sb = new StringBuilder();
+        sb.append(string);
+        return ResponseEntity.ok(sb.reverse().toString());
+    }
 }
