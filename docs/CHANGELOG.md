@@ -1,5 +1,12 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.28](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.27...v4.1.28) (2024-01-08) 🔖
+
+## 🐛 Bug Fixes
+- [`1c0afe7`](https://github.com/arkadioz/demosv-gitmoji/commit/1c0afe7) try to format date
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: [+0000bjecp Objecp]
+
 # 🎉 [v4.1.27](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.26...v4.1.27) (2024-01-08) 🔖
 
 ## 🐛 Bug Fixes
