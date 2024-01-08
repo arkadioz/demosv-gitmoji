@@ -11,6 +11,7 @@ const commitTemplate = readFileAsync(path.join(__dirname, '/lib/assets/templates
 module.exports = {
   branches: [
     "main",
+    {name: 'cookie', prerelease: true},
   ],
   plugins: [
     [

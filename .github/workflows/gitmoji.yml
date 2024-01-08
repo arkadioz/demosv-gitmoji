@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
     branches:
       - main
+      - cookie
 jobs:
   release:
     name: Release
