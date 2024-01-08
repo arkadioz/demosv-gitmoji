@@ -1,5 +1,17 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v6.0.0](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.14...v6.0.0) (2024-01-08) 🔖
+
+## 💥 Breaking Changes
+- [`382b12d`](https://github.com/arkadioz/demosv-gitmoji/commit/382b12d) create new best working config
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 18:05:17
+
+## 📝 Documentation Changes
+- [`1324eb9`](https://github.com/arkadioz/demosv-gitmoji/commit/1324eb9) update best working config to 6.0.0
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 18:05:44
+
 # 🎉 [v5.0.14](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.13...v5.0.14) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
