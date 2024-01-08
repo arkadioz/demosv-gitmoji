@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.13](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.12...v3.0.13) (2024-01-08)
+
+## 🔨 Refactor
+- [`7c9aeb5`](https://github.com/arkadioz/demosv-gitmoji/commit/7c9aeb5)  try to do a breakline at issues - author: arkadioz
+
 # [v3.0.12](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.11...v3.0.12) (2024-01-08)
 
 ## 🐛 Bug Fixes
