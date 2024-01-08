@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.23](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.22...v4.1.23) (2024-01-08) 🔖
+
+## ⚡ Enhancements
+- [`dfce796`](https://github.com/arkadioz/demosv-gitmoji/commit/dfce796) try to add more emojis in another way
+  - &#129489;&#8205;&#128187; '\u{1F9D1}\u{200D}\u{1F4BB}' \u{1F9D1}\u{200D}\u{1F4BB} Author: arkadioz
+  - 📅 Date: Mon Jan 08 2024 19:48:02 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description: added some emojis
+
 # 🎉 [v4.1.22](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.21...v4.1.22) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
