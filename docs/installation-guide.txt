@@ -13,3 +13,6 @@ Solved:
 * Use of none in the config: the emojis that are in here wont be taken in count for any version update, this is a little bit nonesense for now because if you dont want a emoji to trigger nothing, just dont list it.
 * Prerelease works
 * The changelog generation works the same way than with conventional commits
+
+Notes:
+* 3.0.1 is my best working config
