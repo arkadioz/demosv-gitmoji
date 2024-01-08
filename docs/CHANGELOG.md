@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.0.0](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.15...v4.0.0) (2024-01-08) 🔖
+
+## 💥 Breaking Changes
+- [`a38dc4e`](https://github.com/arkadioz/demosv-gitmoji/commit/a38dc4e)  this is my best working config at the moment - author: arkadioz 
+
+## 🔨 Refactor
+- [`4733771`](https://github.com/arkadioz/demosv-gitmoji/commit/4733771)  refactor the default template title for each tag - author: arkadioz
+
 # [v3.0.15](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.14...v3.0.15) (2024-01-08)
 
 ## 🐛 Bug Fixes
