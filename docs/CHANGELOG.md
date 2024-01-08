@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.6](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.5...v4.1.6) (2024-01-08) 🔖
+
+## 🐛 Bug Fixes
+- [`cf4b51e`](https://github.com/arkadioz/demosv-gitmoji/commit/cf4b51e)  fix template - author: arkadioz 
+
+## 📝 Documentation Changes
+- [`fa6629a`](https://github.com/arkadioz/demosv-gitmoji/commit/fa6629a)  update guide with a limitation - author: arkadioz
+
 # 🎉 [v4.1.5](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.4...v4.1.5) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
