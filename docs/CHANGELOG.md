@@ -1,5 +1,14 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.14](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.13...v3.0.14) (2024-01-08)
+
+## 🔨 Refactor
+- [`692ee27`](https://github.com/arkadioz/demosv-gitmoji/commit/692ee27)  try to do a breakline at issues. #2 and #3 - author: arkadioz
+  (Issues: [`#2`](https://github.com/arkadioz/demosv-gitmoji/issues/) [`#3`](https://github.com/arkadioz/demosv-gitmoji/issues/))
+
+- [`f687ef9`](https://github.com/arkadioz/demosv-gitmoji/commit/f687ef9)  checking. #2 and #3 - author: arkadioz
+  (Issues: [`#2`](https://github.com/arkadioz/demosv-gitmoji/issues/) [`#3`](https://github.com/arkadioz/demosv-gitmoji/issues/))
+
 # [v3.0.13](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.12...v3.0.13) (2024-01-08)
 
 ## 🔨 Refactor
