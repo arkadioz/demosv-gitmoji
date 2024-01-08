@@ -1,3 +1,4 @@
+const Handlebars = require('handlebars');
 const path = require('path');
 const {
    promisify
