@@ -1,5 +1,12 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.10](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.9...v3.0.10) (2024-01-08)
+
+## 🐛 Bug Fixes
+- [`880d902`](https://github.com/arkadioz/demosv-gitmoji/commit/880d902)  try to show commit date another way - author: arkadioz - date:    - author another way: 
+
+- [`9c9c3fa`](https://github.com/arkadioz/demosv-gitmoji/commit/9c9c3fa)  try to show author another way - author: arkadioz - date:    - author another way:
+
 # [v3.0.9](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.8...v3.0.9) (2024-01-08)
 
 ## ⚡ Enhancements
