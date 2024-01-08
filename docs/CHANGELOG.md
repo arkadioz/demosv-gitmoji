@@ -1,5 +1,23 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.26](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.25...v4.1.26) (2024-01-08) 🔖
+
+## 📝 Documentation Changes
+- [`faf11a3`](https://github.com/arkadioz/demosv-gitmoji/commit/faf11a3) update guide
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 20:05:10 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description: add the link to get unicodes for emojis in html, they are the ones that worked for markdown
+
+- [`82cf973`](https://github.com/arkadioz/demosv-gitmoji/commit/82cf973) update guide
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 20:05:51 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description: update the pending section
+
+## 🔨 Refactor
+- [`f907d8d`](https://github.com/arkadioz/demosv-gitmoji/commit/f907d8d) let the commit template in a working state
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 20:03:42 GMT+0000 (Coordinated Universal Time)
+
 # 🎉 [v4.1.25](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.24...v4.1.25) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
