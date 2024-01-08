@@ -1,5 +1,12 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.27](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.26...v4.1.27) (2024-01-08) 🔖
+
+## 🐛 Bug Fixes
+- [`03cc41f`](https://github.com/arkadioz/demosv-gitmoji/commit/03cc41f) format date
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 12+0000n Jan 08 2024 21:11:51 G12P+0000 (C+0000+0000r8inape8 Univer41a753 Pi1e)
+
 # 🎉 [v4.1.26](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.25...v4.1.26) (2024-01-08) 🔖
 
 ## 📝 Documentation Changes
