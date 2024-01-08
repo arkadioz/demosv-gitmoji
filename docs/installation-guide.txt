@@ -6,6 +6,7 @@ Disadvantages:
 Pending:
 * Check if there is a way to include author on commits (release notes), maybe with substitutions like in the maven changelog plugin
 * How to make the other changes section (not matching any of the emojis defined)
+* How can we make if equals something else logic checking object values in handlebars template
 
 
 Solved:
