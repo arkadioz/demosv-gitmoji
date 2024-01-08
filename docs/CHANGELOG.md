@@ -1,3 +1,10 @@
+# 🔧 Gitmoji Changelog 🎈
+
+# [v2.1.5](https://github.com/arkadioz/demosv-gitmoji/compare/v2.1.4...v2.1.5) (2024-01-08)
+
+## 🔨 Refactor
+- [`234a075`](https://github.com/arkadioz/demosv-gitmoji/commit/234a075)  add another emoji to the title
+
 # Gitmoji Changelog 🎈
 
 # [v2.1.4](https://github.com/arkadioz/demosv-gitmoji/compare/v2.1.3...v2.1.4) (2024-01-08)
