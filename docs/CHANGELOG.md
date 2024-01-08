@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.10](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.9...v4.1.10) (2024-01-08) 🔖
+
+## 📝 Documentation Changes
+- [`c79c9a2`](https://github.com/arkadioz/demosv-gitmoji/commit/c79c9a2)  update docs - author: arkadioz - date: Mon Jan 08 2024 06:16:06 GMT+0000 (Coordinated Universal Time) Mon Jan 08 2024 06:16:06 GMT+0000 (Coordinated Universal Time) 
+
+## 🔨 Refactor
+- [`a96cede`](https://github.com/arkadioz/demosv-gitmoji/commit/a96cede)  try to show the commit date - author: arkadioz - date: Mon Jan 08 2024 18:26:00 GMT+0000 (Coordinated Universal Time) Mon Jan 08 2024 18:26:00 GMT+0000 (Coordinated Universal Time)
+
 # 🎉 [v4.1.9](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.8...v4.1.9) (2024-01-08) 🔖
 
 ## 🔨 Refactor
