@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.7](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.6...v4.1.7) (2024-01-08) 🔖
+
+## 🔨 Refactor
+- [`fe6ac61`](https://github.com/arkadioz/demosv-gitmoji/commit/fe6ac61)  what happens if we have a really long commit message or subject lets see eeee eeee eeee eeee eeee eeee eeee eeee eeee eeee eeee eeee eeee rrrr tttt end. - author: arkadioz
+
 # 🎉 [v4.1.6](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.5...v4.1.6) (2024-01-08) 🔖
 
 ## 🐛 Bug Fixes
