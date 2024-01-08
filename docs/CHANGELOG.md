@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v5.0.13](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.12...v5.0.13) (2024-01-08) 🔖
+
+## 🔨 Refactor
+- [`7d86620`](https://github.com/arkadioz/demosv-gitmoji/commit/7d86620) update guide
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 05:55:26 PM
+  - 📃 Description: doing a long commit description aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 # 🎉 [v5.0.12](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.11...v5.0.12) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
