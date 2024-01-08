@@ -1,5 +1,16 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.1](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.0...v3.0.1) (2024-01-08)
+
+## 🐛 Bug Fixes
+- [`368a267`](https://github.com/arkadioz/demosv-gitmoji/commit/368a267)  fix the template 
+
+## ⚡ Enhancements
+- [`05970fa`](https://github.com/arkadioz/demosv-gitmoji/commit/05970fa)  enhance hello endpoint to greet with a more personal message 
+
+## 🧪 Tests
+- [`1e63ae0`](https://github.com/arkadioz/demosv-gitmoji/commit/1e63ae0)  add another test for reverse string
+
 # [v3.0.0](https://github.com/arkadioz/demosv-gitmoji/compare/v2.1.6...v3.0.0) (2024-01-08)
 
 ## 💥 Breaking Changes
