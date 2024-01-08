@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.0](https://github.com/arkadioz/demosv-gitmoji/compare/v4.0.1...v4.1.0) (2024-01-08) 🔖
+
+## ✨ New Features
+- [`a6cb719`](https://github.com/arkadioz/demosv-gitmoji/commit/a6cb719)  add commit desc to template - desc:  - author: arkadioz
+
 # 🎉 [v4.0.1](https://github.com/arkadioz/demosv-gitmoji/compare/v4.0.0...v4.0.1) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
