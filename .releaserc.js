@@ -1,10 +1,10 @@
-// in ".releaserc.js" or "release.config.js"
+// en ".releaserc.js" o "release.config.js"
 const path = require('path');
 const { promisify } = require('util');
 const dateFormat = require('dateformat');
 const readFileAsync = promisify(require('fs').readFile);
 
-// the *.hbs template and partials should be passed as strings of contents
+// los archivos *.hbs deben pasarse como cadenas de contenido
 const template = readFileAsync(path.join(__dirname, '/lib/assets/templates/default-template.hbs'));
 const commitTemplate = readFileAsync(path.join(__dirname, '/lib/assets/templates/commit-template.hbs'));
 
@@ -51,12 +51,11 @@ module.exports = {
         "prepareCmd": "mvn versions:set -DnewVersion=\"${nextRelease.version}\" && mvn clean install"
       }
     ],
-    ,
     [
           "@semantic-release/changelog",
           {
             "changelogFile": "docs/CHANGELOG.md",
-            "changelogTitle": "# Gitmoji Changelog"
+            "changelogTitle": "# :balloon: Gitmoji Changelog :lollipop:"
           }
     ],
     [
@@ -67,10 +66,8 @@ module.exports = {
                 "docs/CHANGELOG.md"
               ],
         message: [
-          ':bookmark: v${nextRelease.version} [skip ci]',
-          '',
-          'https://github.com/arkadioz/demosv-gitmoji/releases/tag/${nextRelease.gitTag}'
-        ].join('\n')
+          ':bookmark: v${nextRelease.version} [skip ci]'
+        ]
       }
     ]
   ]
