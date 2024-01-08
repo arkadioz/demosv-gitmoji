@@ -67,4 +67,11 @@
 - {{> commitTemplate}}
 {{/each}}
 {{/if}}
+
+{{#if noMatch}}
+## 🤔 Other Emotes
+{{#each noMatch}}
+- {{> commitTemplate}}
+{{/each}}
+{{/if}}
 {{/with}}
