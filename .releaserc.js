@@ -38,8 +38,8 @@ module.exports = {
                   commitTemplate
                },
                helpers: {
-                  datetime: function (format = 'UTC:yyyy-mm-dd') {
-                     return dateFormat(new Date(), format);
+                  function formatDate(date) {
+                    return dateFormat(date, 'yyyy-mm-dd HH:MM:ss');
                   },
                   split: function(string) {
                      return string.trim().split('\n');
