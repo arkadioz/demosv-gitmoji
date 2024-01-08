@@ -11,6 +11,9 @@ module.exports = {
     "main"
   ],
   plugins: [
+      branches: [
+        "main"
+      ],
     [
       'semantic-release-gitmoji', {
         releaseRules: {
@@ -41,7 +44,10 @@ module.exports = {
         }
       }
     ],
-    '@semantic-release/github'
+    '@semantic-release/github',
+                                   "branches": [
+                                     "main"
+                                   ]
   ],
      "branches": [
        "main"
