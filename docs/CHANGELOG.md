@@ -1,5 +1,23 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v5.0.11](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.10...v5.0.11) (2024-01-08) 🔖
+
+## 🐛 Bug Fixes
+- [`86652af`](https://github.com/arkadioz/demosv-gitmoji/commit/86652af) needed to declare the function in another way
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 2024-01-08 22:39:48
+  - 📃 Description:
+    - fixed the formatDate function
+
+## 🔨 Refactor
+- [`ca3517f`](https://github.com/arkadioz/demosv-gitmoji/commit/ca3517f) this is the subject
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 2024-01-08 22:36:51
+  - 📃 Description:
+    - this is the description:
+    - first linebreak was made
+    - second linebreak was made
+
 # 🎉 [v5.0.10](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.9...v5.0.10) (2024-01-08) 🔖
 
 ## 🔨 Refactor
