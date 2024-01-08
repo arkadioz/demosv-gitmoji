@@ -50,7 +50,7 @@ module.exports = {
             message: [
               ':bookmark: v${nextRelease.version} [skip ci]',
               '',
-              'https://github.com/momocow/semantic-release-gitmoji/releases/tag/${nextRelease.gitTag}'
+              'https://github.com/arkadioz/demosv-gitmoji/releases/tag/${nextRelease.gitTag}'
             ].join('\n')
           }
     ]
