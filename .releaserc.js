@@ -8,8 +8,7 @@ const commitTemplate = path.resolve(__dirname, '/lib/assets/templates/commit-tem
 
 module.exports = {
   branches: [
-    "main",
-    { "name": "cookie", "prerelease": true }
+    "main"
   ],
   plugins: [
     [
