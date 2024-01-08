@@ -8,7 +8,7 @@ const commitTemplate = path.resolve(__dirname, '/lib/assets/templates/commit-tem
 
 module.exports = {
   branches: [
-    "main"
+    "main",
   ],
   plugins: [
     [
@@ -42,11 +42,5 @@ module.exports = {
       }
     ],
     '@semantic-release/github'
-  ],
-     "branches": [
-       "main"
-     ],
-       branches: [
-         "main"
-       ]
+  ]
 }
