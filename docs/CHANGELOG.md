@@ -1,5 +1,11 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.2](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.1...v3.0.2) (2024-01-08)
+
+## 🐛 Bug Fixes
+  
+- [`0208f10`](https://github.com/arkadioz/demosv-gitmoji/commit/0208f10) [object Object] unknown [object Object]  try to make the author name appear
+
 # [v3.0.1](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.0...v3.0.1) (2024-01-08)
 
 ## 🐛 Bug Fixes
