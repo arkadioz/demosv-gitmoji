@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.6](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.5...v3.0.6) (2024-01-08)
+
+## 🔨 Refactor
+- [`eea65a2`](https://github.com/arkadioz/demosv-gitmoji/commit/eea65a2)  check if removing something affects the template author name: Arkadioz author email: davv913@hotmail.com
+
 # [v3.0.5](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.4...v3.0.5) (2024-01-08)
 
 ## 🐛 Bug Fixes
