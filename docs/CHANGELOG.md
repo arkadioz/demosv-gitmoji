@@ -1,5 +1,14 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.18](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.17...v4.1.18) (2024-01-08) 🔖
+
+## ⚡ Enhancements
+- [`ee1b75a`](https://github.com/arkadioz/demosv-gitmoji/commit/ee1b75a) only show description if available
+  - desc: added an if statement to the template to show the body if there is a body, refactored the spaces again, try something different
+ 
+  - author: arkadioz
+  - date: Mon Jan 08 2024 19:29:26 GMT+0000 (Coordinated Universal Time)
+
 # 🎉 [v4.1.17](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.16...v4.1.17) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
