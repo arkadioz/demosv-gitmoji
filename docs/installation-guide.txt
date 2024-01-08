@@ -20,4 +20,4 @@ Solved:
 * Context variables (like commit attributes): https://github.com/semantic-release/semantic-release/blob/master/docs/developer-guide/js-api.md you can use emojis with their html unicode: https://unicodeplus.com/
 
 Notes:
-* 5.0.0 is my best working config atm.
+* 5.0.0 is my best working config atm
