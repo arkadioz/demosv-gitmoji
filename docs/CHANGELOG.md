@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v5.0.14](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.13...v5.0.14) (2024-01-08) 🔖
+
+## ⚡ Enhancements
+- [`e3ace9f`](https://github.com/arkadioz/demosv-gitmoji/commit/e3ace9f) use 24 hour format
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 18:02:56
+  - 📃 Description: added the property 12hour: false to the formatDateCol function at the releaserc.js config file
+
 # 🎉 [v5.0.13](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.12...v5.0.13) (2024-01-08) 🔖
 
 ## 🔨 Refactor
