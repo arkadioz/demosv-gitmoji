@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.davv</groupId>
     <artifactId>demosv-gitmoji</artifactId>
-    <version>4.1.13</version>
+    <version>4.1.14</version>
     <name>demosv-gitmoji</name>
     <description>Demo project for sv with gitmoji</description>
     <packaging>pom</packaging>
