@@ -1,15 +1,17 @@
+// in ".releaserc.js" or "release.config.js"
 const path = require('path')
 const fs = require('fs')
+const { promisify } = require('util')
 const dateFormat = require('dateformat')
+const readFileAsync = promisify(require('fs').readFile)
+
+// Given a `const` variable `TEMPLATE_DIR` which points to "<semantic-release-gitmoji>/lib/assets/templates"
 
 // the *.hbs template and partials should be passed as strings of contents
-const tplFile = path.resolve(__dirname, '/lib/assets/templates/default-template.hbs')
-const commitTemplate = path.resolve(__dirname, '/lib/assets/templates/commit-template.hbs')
+const template = readFileAsync(path.join(__dirname, '/lib/assets/templates/default-template.hbs'))
+const commitTemplate = readFileAsync(path.join(__dirname, '/lib/assets/templates/commit-template.hbs'))
 
 module.exports = {
-  branches: [
-    "main",
-  ],
   plugins: [
     [
       'semantic-release-gitmoji', {
@@ -24,8 +26,8 @@ module.exports = {
           ]
         },
         releaseNotes: {
-          template: fs.readFileSync(tplFile, 'utf-8'),
-          partials: fs.readFileSync(commitTemplate, 'utf-8'),
+          template,
+          partials: { commitTemplate },
           helpers: {
             datetime: function (format = 'UTC:yyyy-mm-dd') {
               return dateFormat(new Date(), format)
@@ -41,6 +43,13 @@ module.exports = {
         }
       }
     ],
-    '@semantic-release/github'
-  ]
+    '@semantic-release/github',
+  ],
+     "branches": [
+       "main",
+       {
+         "name": "beta",
+         "prerelease": true
+       }
+     ]
 }
