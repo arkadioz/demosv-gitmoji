@@ -1,5 +1,15 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v5.0.7](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.6...v5.0.7) (2024-01-08) 🔖
+
+## ⚡ Enhancements
+- [`925b531`](https://github.com/arkadioz/demosv-gitmoji/commit/925b531) add handlebars
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 22:11:51 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description:
+    - updated the template releaserc:
+* added handlebars
+
 # 🎉 [v5.0.6](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.5...v5.0.6) (2024-01-08) 🔖
 
 ## 🔨 Refactor
