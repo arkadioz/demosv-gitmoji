@@ -1,12 +1,12 @@
 // in ".releaserc.js" or "release.config.js"
-const path = require('path')
-const { promisify } = require('util')
-const dateFormat = require('dateformat')
-const readFileAsync = promisify(require('fs').readFile)
+const path = require('path');
+const { promisify } = require('util');
+const dateFormat = require('dateformat');
+const readFileAsync = promisify(require('fs').readFile);
 
 // the *.hbs template and partials should be passed as strings of contents
-const template = readFileAsync(path.join(__dirname, '/lib/assets/templates/default-template.hbs'))
-const commitTemplate = readFileAsync(path.join(__dirname, '/lib/assets/templates/commit-template.hbs'))
+const template = readFileAsync(path.join(__dirname, '/lib/assets/templates/default-template.hbs'));
+const commitTemplate = readFileAsync(path.join(__dirname, '/lib/assets/templates/commit-template.hbs'));
 
 module.exports = {
   branches: [
@@ -30,7 +30,7 @@ module.exports = {
           partials: { commitTemplate },
           helpers: {
             datetime: function (format = 'UTC:yyyy-mm-dd') {
-              return dateFormat(new Date(), format)
+              return dateFormat(new Date(), format);
             }
           },
           issueResolution: {
@@ -45,14 +45,23 @@ module.exports = {
     ],
     '@semantic-release/github',
     [
-          '@semantic-release/git',
-          {
-            message: [
-              ':bookmark: v${nextRelease.version} [skip ci]',
-              '',
-              'https://github.com/arkadioz/demosv-gitmoji/releases/tag/${nextRelease.gitTag}'
-            ].join('\n')
-          }
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "mvn versions:set -DnewVersion=\"${nextRelease.version}\" && mvn clean install"
+      }
+    ],
+    [
+      '@semantic-release/git',
+      {
+        "assets": [
+                "**/pom.xml"
+              ],
+        message: [
+          ':bookmark: v${nextRelease.version} [skip ci]',
+          '',
+          'https://github.com/arkadioz/demosv-gitmoji/releases/tag/${nextRelease.gitTag}'
+        ].join('\n')
+      }
     ]
   ]
-}
+};

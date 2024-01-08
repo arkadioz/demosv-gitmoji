@@ -8,6 +8,7 @@ Pending:
 
 * Check if there is a way to include author on commits (release notes), maybe with substitutions like in the maven changelog plugin
 * How to make the other changes section (not matching any of the emojis defined)
+* Check if it can update the pom.xml
 
 Solved:
 
