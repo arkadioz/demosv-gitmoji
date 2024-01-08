@@ -53,7 +53,7 @@ module.exports = {
     [
       '@semantic-release/git',
       {
-        "assets": [
+        assets: [
                 "**/pom.xml"
               ],
         message: [
