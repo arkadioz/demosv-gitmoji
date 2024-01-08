@@ -1,1 +1,1 @@
-[`{{commit.short}}`](https://github.com/{{owner}}/{{repo}}/commit/{{commit.short}}) {{subject}} - desc: {{description}} {{this.description}} {{commit.description}} - author: {{this.author.name}} {{#if issues}}(Issues:{{#each issues}} [`{{text}}`]({{link}}){{/each}}){{/if}}
+[`{{commit.short}}`](https://github.com/{{owner}}/{{repo}}/commit/{{commit.short}}) {{subject}} - desc: {{description}} {{this.description}} {{commit.description}} {{lookup this 'description'}} - author: {{this.author.name}} {{#if issues}}(Issues:{{#each issues}} [`{{text}}`]({{link}}){{/each}}){{/if}}
