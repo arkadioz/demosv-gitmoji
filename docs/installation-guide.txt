@@ -17,4 +17,4 @@ Solved:
 * you can get the author name and email with: {{this.author.name}} and {{this.author.email}}
 
 Notes:
-* 3.0.1 is my best working config
+* 4.0.0 is my best working config
