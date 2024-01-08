@@ -15,7 +15,7 @@ Solved:
 * Prerelease works
 * The changelog generation works the same way than with conventional commits.
 * you can get the author name and email with: {{this.author.name}} and {{this.author.email}}
-* Context variables (commit attributes, etc): https://github.com/semantic-release/semantic-release/blob/master/docs/developer-guide/js-api.md
+* Context variables (like commit attributes): https://github.com/semantic-release/semantic-release/blob/master/docs/developer-guide/js-api.md
 
 Notes:
 * 4.0.0 is my best working config
