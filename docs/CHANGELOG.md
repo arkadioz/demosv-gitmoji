@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.4](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.3...v4.1.4) (2024-01-08) 🔖
+
+## ⚡ Enhancements
+- [`27c7050`](https://github.com/arkadioz/demosv-gitmoji/commit/27c7050)  this is the message - desc:    this is the message
+
+:pencil: this is a description hehe
+   - author: arkadioz
+
 # 🎉 [v4.1.3](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.2...v4.1.3) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
