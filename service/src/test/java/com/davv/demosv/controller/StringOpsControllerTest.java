@@ -24,6 +24,7 @@ public class StringOpsControllerTest {
     void testReverseString() {
         StringOpsController ops = new StringOpsController();
         assertEquals("solrac", ops.reverse("carlos").getBody());
+        assertEquals("orb aloh", ops.reverse("hola bro").getBody());
     }
 
 }
