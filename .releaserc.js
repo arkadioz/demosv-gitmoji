@@ -3,8 +3,8 @@ const fs = require('fs')
 const dateFormat = require('dateformat')
 
 // the *.hbs template and partials should be passed as strings of contents
-const tplFile = path.resolve(__dirname, '/lib/assets/templates/default-template.hbs'))
-const commitTemplate = path.resolve(__dirname, '/lib/assets/templates/commit-template.hbs'))
+const tplFile = path.resolve(__dirname, '/lib/assets/templates/default-template.hbs')
+const commitTemplate = path.resolve(__dirname, '/lib/assets/templates/commit-template.hbs')
 
 module.exports = {
   plugins: [
