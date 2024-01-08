@@ -3,7 +3,7 @@
   - &#x1F4C5; Date: {{this.committer.date}}
 {{#if body}}
   - 📃 Description:
-{{#each (split body "\n")}}
+{{#each (split body)}}
     - {{this}}
 {{/each}}
 {{/if}}
