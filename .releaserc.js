@@ -39,6 +39,9 @@ module.exports = {
                helpers: {
                   datetime: function (format = 'UTC:yyyy-mm-dd') {
                      return dateFormat(new Date(), format);
+                  },
+                  split: function(string, separator) {
+                     return string.split(separator);
                   }
                },
                issueResolution: {
