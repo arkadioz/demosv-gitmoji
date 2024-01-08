@@ -23,7 +23,8 @@ module.exports = {
             ':bug:',
             ':ambulance:',
             ':lock:',
-            ':zap:'
+            ':zap:',
+            ':hammer:'
           ]
         },
         releaseNotes: {
