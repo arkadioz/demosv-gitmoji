@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.25](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.24...v4.1.25) (2024-01-08) 🔖
+
+## ⚡ Enhancements
+- [`3701e76`](https://github.com/arkadioz/demosv-gitmoji/commit/3701e76) try to add more emojis in another way to understand
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F914; &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 20:00:39 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description: added some emojis in another way
+
 # 🎉 [v4.1.24](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.23...v4.1.24) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
