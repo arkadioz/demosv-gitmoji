@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.3](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.2...v4.1.3) (2024-01-08) 🔖
+
+## ⚡ Enhancements
+- [`83b8b52`](https://github.com/arkadioz/demosv-gitmoji/commit/83b8b52)  leave a todo comment - desc:     - author: arkadioz
+
 # 🎉 [v4.1.2](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.1...v4.1.2) (2024-01-08) 🔖
 
 ## ⚡ Enhancements
