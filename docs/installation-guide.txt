@@ -2,7 +2,7 @@ Gitmoji Notes (List of emojis: https://gist.github.com/rxaviers/7360908 AND gitm
 
 Disadvantages/limitations:
 * Configuration is highly suggested to be done with .js instead of .json in order to properly manage templates, which can be additional complexity.
-* We cannot use emojis on the commit descriptions because the changelog wont show them correctly, also if we do use commit descriptions we might break the template because of the line break that it includes, there is no problem with long commit subjects as long as they dont have line breaks, it seems to be okay to do 1 line break.
+* We cannot use emojis on the commit descriptions because the changelog wont show them correctly, also if we do use commit descriptions we might break the template because of the line break that it includes, there is no problem with long commit subjects as long as they dont have line breaks, it seems to be okay to do 1 line break, so if we do more than 1 line break git will automatically interpret that as a commit description so as long as we dont want to see that on the release notes or changelog it should be fine.
 
 Pending:
 * Check if there is a way to include author on commits (release notes), maybe with substitutions like in the maven changelog plugin
