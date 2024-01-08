@@ -1,5 +1,15 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.11](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.10...v4.1.11) (2024-01-08) 🔖
+
+## 📝 Documentation Changes
+- [`6a3de7b`](https://github.com/arkadioz/demosv-gitmoji/commit/6a3de7b)  update docs - desc: added the context variables
+ author: arkadioz - date: Mon Jan 08 2024 18:31:20 GMT+0000 (Coordinated Universal Time) 
+
+## 🔨 Refactor
+- [`d51931d`](https://github.com/arkadioz/demosv-gitmoji/commit/d51931d)  update template - desc: try to include the commit body/description
+ author: arkadioz - date: Mon Jan 08 2024 18:31:58 GMT+0000 (Coordinated Universal Time)
+
 # 🎉 [v4.1.10](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.9...v4.1.10) (2024-01-08) 🔖
 
 ## 📝 Documentation Changes
