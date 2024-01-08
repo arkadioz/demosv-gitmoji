@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 20
       - name: Install semantic-release
-        run: npm install semantic-release @semantic-release/github semantic-release-gitmoji
+        run: npm install semantic-release @semantic-release/github semantic-release-gitmoji @semantic-release/git
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
