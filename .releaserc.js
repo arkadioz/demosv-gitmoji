@@ -1,17 +1,17 @@
 // in ".releaserc.js" or "release.config.js"
 const path = require('path')
-const fs = require('fs')
 const { promisify } = require('util')
 const dateFormat = require('dateformat')
 const readFileAsync = promisify(require('fs').readFile)
-
-// Given a `const` variable `TEMPLATE_DIR` which points to "<semantic-release-gitmoji>/lib/assets/templates"
 
 // the *.hbs template and partials should be passed as strings of contents
 const template = readFileAsync(path.join(__dirname, '/lib/assets/templates/default-template.hbs'))
 const commitTemplate = readFileAsync(path.join(__dirname, '/lib/assets/templates/commit-template.hbs'))
 
 module.exports = {
+  branches: [
+    "main",
+  ],
   plugins: [
     [
       'semantic-release-gitmoji', {
