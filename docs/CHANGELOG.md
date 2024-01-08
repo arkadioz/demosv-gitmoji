@@ -1,5 +1,15 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.7](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.6...v3.0.7) (2024-01-08)
+
+## 📝 Documentation Changes
+- [`b7034e6`](https://github.com/arkadioz/demosv-gitmoji/commit/b7034e6)  add pending to guide
+author name: Arkadioz author email: davv913@hotmail.com
+
+## 🔨 Refactor
+- [`83e36e0`](https://github.com/arkadioz/demosv-gitmoji/commit/83e36e0)  try to improve the template
+author name: Arkadioz author email: davv913@hotmail.com
+
 # [v3.0.6](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.5...v3.0.6) (2024-01-08)
 
 ## 🔨 Refactor
