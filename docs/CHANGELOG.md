@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.1](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.0...v4.1.1) (2024-01-08) 🔖
+
+## 🐛 Bug Fixes
+- [`fefa449`](https://github.com/arkadioz/demosv-gitmoji/commit/fefa449)  try to show commit description - desc:    - author: arkadioz
+
 # 🎉 [v4.1.0](https://github.com/arkadioz/demosv-gitmoji/compare/v4.0.1...v4.1.0) (2024-01-08) 🔖
 
 ## ✨ New Features
