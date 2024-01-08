@@ -42,7 +42,7 @@ module.exports = {
                      return dateFormat(new Date(), format);
                   },
                   split: function(string) {
-                     return string.split('\n');
+                     return string.trim().split('\n');
                   }
                },
                issueResolution: {
