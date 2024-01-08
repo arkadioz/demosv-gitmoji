@@ -1,5 +1,12 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.9](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.8...v3.0.9) (2024-01-08)
+
+## ⚡ Enhancements
+- [`d078b31`](https://github.com/arkadioz/demosv-gitmoji/commit/d078b31)  try to include commit date - author: arkadioz - date:  
+
+- [`5d76ad7`](https://github.com/arkadioz/demosv-gitmoji/commit/5d76ad7)  add detail to docs - author: arkadioz - date:
+
 # [v3.0.8](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.7...v3.0.8) (2024-01-08)
 
 ## 🔒 Security Issues
