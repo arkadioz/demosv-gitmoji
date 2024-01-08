@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.4](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.3...v3.0.4) (2024-01-08)
+
+## 🐛 Bug Fixes
+- [`f30cf35`](https://github.com/arkadioz/demosv-gitmoji/commit/f30cf35)  try to print the author in different way
+
 # [v3.0.3](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.2...v3.0.3) (2024-01-08)
 
 ## 🔨 Refactor
