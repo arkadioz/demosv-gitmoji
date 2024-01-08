@@ -1,7 +1,8 @@
 Gitmoji Notes (List of emojis: https://gist.github.com/rxaviers/7360908 AND gitmoji specifications: https://gitmoji.dev/):
 
-Disadvantages:
+Disadvantages/limitations:
 * Configuration is highly suggested to be done with .js instead of .json in order to properly manage templates, which can be additional complexity.
+* We cannot use emojis on the commit descriptions, also if we do use commit descriptions we might break the template because of the line break.
 
 Pending:
 * Check if there is a way to include author on commits (release notes), maybe with substitutions like in the maven changelog plugin
