@@ -1,5 +1,11 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.5](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.4...v3.0.5) (2024-01-08)
+
+## 🐛 Bug Fixes
+- [`a068c2b`](https://github.com/arkadioz/demosv-gitmoji/commit/a068c2b)  try to print the author in different way 2 author name: unknown author email: davv913@hotmail.com 
+- [`3d7d68f`](https://github.com/arkadioz/demosv-gitmoji/commit/3d7d68f)  try to print the author in different way 3 author name: unknown author email: davv913@hotmail.com
+
 # [v3.0.4](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.3...v3.0.4) (2024-01-08)
 
 ## 🐛 Bug Fixes
