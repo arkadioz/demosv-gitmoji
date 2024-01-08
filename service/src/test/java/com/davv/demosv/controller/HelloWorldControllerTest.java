@@ -15,14 +15,14 @@ public class HelloWorldControllerTest {
     @DisplayName("hello test should succeed")
     void helloTest() {
         HelloWorldController controller = new HelloWorldController();
-        assertEquals("Hello there!", controller.hello().getBody());
+        assertEquals("Hello there Carlos!", controller.hello("Carlos").getBody());
     }
 
     @Test
     @DisplayName("hello test should fail")
     void helloTestShouldFail() {
         HelloWorldController controller = new HelloWorldController();
-        assertNotEquals("Hello there!!", controller.hello().getBody());
+        assertNotEquals("Hello there Julieth!!", controller.hello("Julieth").getBody());
     }
 
     @Test

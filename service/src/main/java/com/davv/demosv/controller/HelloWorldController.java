@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class HelloWorldController {
 
-    @GetMapping("/hello")
-    public ResponseEntity<String> hello() {
-        return ResponseEntity.ok("Hello there!");
+    @GetMapping("/hello/{name}")
+    public ResponseEntity<String> hello(@PathVariable String name) {
+        return ResponseEntity.ok("Hello there " + name + "!");
     }
 
     @GetMapping("/add/{n1}/{n2}")
