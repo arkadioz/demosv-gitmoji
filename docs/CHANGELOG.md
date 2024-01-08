@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# [v2.1.4](https://github.com/arkadioz/demosv-gitmoji/compare/v2.1.3...v2.1.4) (2024-01-08)
+
+## 🔨 Refactor
+- [`77400bf`](https://github.com/arkadioz/demosv-gitmoji/commit/77400bf)  the balloon unicode is now ok
+
 # [v2.1.3](https://github.com/arkadioz/demosv-gitmoji/compare/v2.1.2...v2.1.3) (2024-01-08)
 
 ## 🐛 Bug Fixes
