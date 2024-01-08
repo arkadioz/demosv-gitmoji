@@ -42,4 +42,6 @@ public class HelloWorldController {
         log.info("Multiplying {} x {}", n1, n2);
         return ResponseEntity.ok(n1 * n2);
     }
+
+    // TODO make an endpoint for dividing two numbers
 }
