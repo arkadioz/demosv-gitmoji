@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.15](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.14...v3.0.15) (2024-01-08)
+
+## 🐛 Bug Fixes
+- [`e5b1d8c`](https://github.com/arkadioz/demosv-gitmoji/commit/e5b1d8c)  let the issues on same line - author: arkadioz 
+
+## 🔨 Refactor
+- [`0a3226f`](https://github.com/arkadioz/demosv-gitmoji/commit/0a3226f)  leave issues on same line. #2 and #3 - author: arkadioz (Issues: [`#2`](https://github.com/arkadioz/demosv-gitmoji/issues/) [`#3`](https://github.com/arkadioz/demosv-gitmoji/issues/))
+
 # [v3.0.14](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.13...v3.0.14) (2024-01-08)
 
 ## 🔨 Refactor
