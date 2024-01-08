@@ -1,5 +1,24 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v5.0.2](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.1...v5.0.2) (2024-01-08) 🔖
+
+## 🔨 Refactor
+- [`01c7a98`](https://github.com/arkadioz/demosv-gitmoji/commit/01c7a98) refactor guide
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 21:46:42 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description: updated the guide:
+* added some stuff
+* recovered from that
+* ended with this.
+
+- [`202c7ba`](https://github.com/arkadioz/demosv-gitmoji/commit/202c7ba) refactor guide
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 21:47:16 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description: updated the guide:
+ * added some stuff
+ * recovered from that
+ * ended with this.
+
 # 🎉 [v5.0.1](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.0...v5.0.1) (2024-01-08) 🔖
 
 ## 🔨 Refactor
