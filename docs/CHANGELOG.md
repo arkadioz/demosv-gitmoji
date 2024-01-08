@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.8](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.7...v4.1.8) (2024-01-08) 🔖
+
+## 🔨 Refactor
+- [`09ff966`](https://github.com/arkadioz/demosv-gitmoji/commit/09ff966)  lets see if there is any problem with line break in the commit subject - author: arkadioz
+
 # 🎉 [v4.1.7](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.6...v4.1.7) (2024-01-08) 🔖
 
 ## 🔨 Refactor
