@@ -1,5 +1,12 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v4.1.30](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.29...v4.1.30) (2024-01-08) 🔖
+
+## 🐛 Bug Fixes
+- [`9dfae08`](https://github.com/arkadioz/demosv-gitmoji/commit/9dfae08) show date another way 2
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date:  ---  --- Mon Jan 08 2024 21:26:36 GMT+0000 (Coordinated Universal Time)
+
 # 🎉 [v4.1.29](https://github.com/arkadioz/demosv-gitmoji/compare/v4.1.28...v4.1.29) (2024-01-08) 🔖
 
 ## 🐛 Bug Fixes
