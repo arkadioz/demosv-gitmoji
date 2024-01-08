@@ -62,7 +62,7 @@ module.exports = {
          "@semantic-release/changelog",
          {
             "changelogFile": "docs/CHANGELOG.md",
-            "changelogTitle": "# :balloon: Gitmoji Changelog :lollipop:"
+            "changelogTitle": "# Gitmoji Changelog \uD83C\uDF88"
          }
       ],
       [
