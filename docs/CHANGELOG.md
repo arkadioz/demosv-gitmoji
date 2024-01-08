@@ -1,5 +1,25 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v5.0.12](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.11...v5.0.12) (2024-01-08) 🔖
+
+## ⚡ Enhancements
+- [`f103269`](https://github.com/arkadioz/demosv-gitmoji/commit/f103269) add another format function
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 05:45:10 PM
+
+- [`a673ca9`](https://github.com/arkadioz/demosv-gitmoji/commit/a673ca9) use the new formatter
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 05:46:03 PM
+  - 📃 Description: used the new formatter at the commit template
+
+- [`e7eea5f`](https://github.com/arkadioz/demosv-gitmoji/commit/e7eea5f) saved the template with another way to show the commits description
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 05:48:13 PM
+
+- [`2779987`](https://github.com/arkadioz/demosv-gitmoji/commit/2779987) leave the description in one line for now
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 05:48:53 PM
+
 # 🎉 [v5.0.11](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.10...v5.0.11) (2024-01-08) 🔖
 
 ## 🐛 Bug Fixes
