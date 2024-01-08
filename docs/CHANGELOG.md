@@ -1,5 +1,13 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.8](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.7...v3.0.8) (2024-01-08)
+
+## 🔒 Security Issues
+- [`0073676`](https://github.com/arkadioz/demosv-gitmoji/commit/0073676)  remove author email from the template author: arkadioz
+
+## 📝 Documentation Changes
+- [`c554a77`](https://github.com/arkadioz/demosv-gitmoji/commit/c554a77)  update guide to include doc about author author: arkadioz
+
 # [v3.0.7](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.6...v3.0.7) (2024-01-08)
 
 ## 📝 Documentation Changes
