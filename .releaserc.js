@@ -51,11 +51,20 @@ module.exports = {
         "prepareCmd": "mvn versions:set -DnewVersion=\"${nextRelease.version}\" && mvn clean install"
       }
     ],
+    ,
+    [
+          "@semantic-release/changelog",
+          {
+            "changelogFile": "docs/CHANGELOG.md",
+            "changelogTitle": "# Gitmoji Changelog"
+          }
+    ],
     [
       '@semantic-release/git',
       {
         assets: [
-                "**/pom.xml"
+                "**/pom.xml",
+                "docs/CHANGELOG.md"
               ],
         message: [
           ':bookmark: v${nextRelease.version} [skip ci]',
