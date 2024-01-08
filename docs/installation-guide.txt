@@ -1,4 +1,4 @@
-Gitmoji Notes (List of emojis: https://gist.github.com/rxaviers/7360908):
+Gitmoji Notes (List of emojis: https://gist.github.com/rxaviers/7360908 AND gitmoji specifications: https://gitmoji.dev/):
 
 Disadvantages:
 * Configuration is highly suggested to be done with .js instead of .json in order to properly manage templates, which can be additional complexity
