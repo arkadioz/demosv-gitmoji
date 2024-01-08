@@ -19,4 +19,11 @@ public class StringOpsControllerTest {
         assertEquals(Boolean.TRUE, ops.isPalindrome("saippuakivikauppias").getBody());
     }
 
+    @Test
+    @DisplayName("Reverse String")
+    void testReverseString() {
+        StringOpsController ops = new StringOpsController();
+        assertEquals("solrac", ops.reverse("carlos").getBody());
+    }
+
 }
