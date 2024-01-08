@@ -1,6 +1,6 @@
 [`{{commit.short}}`](https://github.com/{{owner}}/{{repo}}/commit/{{commit.short}}){{subject}}{{#if issues}}(Issues:{{#each issues}} [`{{text}}`]({{link}}){{/each}}){{/if}}
   - &#129489;&#8205;&#128187; Author: {{this.author.name}} &#x1F920;
-  - &#x1F4C5; Date: {{committerDate}}
+  - &#x1F4C5; Date: {{datetime committerDate}}
 {{#if body}}
   - 📃 Description: {{body}}
 {{/if}}
