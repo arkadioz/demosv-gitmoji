@@ -5,7 +5,6 @@ Disadvantages/limitations:
 * We cannot use emojis on the commit descriptions because the changelog wont show them correctly, also if we do use commit descriptions we might break the template because of the line break that it includes, there is no problem with long commit subjects as long as they dont have line breaks, it seems to be okay to do 1 line break, so if we do more than 1 line break git will automatically interpret that as a commit description so as long as we dont want to see that on the release notes or changelog it should be fine.
 
 Pending:
-* Check if there is a way to include author on commits (release notes), maybe with substitutions like in the maven changelog plugin
 * How to make the other changes section (not matching any of the emojis defined)
 * How can we make if equals something else logic checking object values in handlebars template and also format dates??
 
@@ -16,6 +15,7 @@ Solved:
 * Prerelease works
 * The changelog generation works the same way than with conventional commits.
 * you can get the author name and email with: {{this.author.name}} and {{this.author.email}}
+* Context variables: https://github.com/semantic-release/semantic-release/blob/master/docs/developer-guide/js-api.md
 
 Notes:
 * 4.0.0 is my best working config
