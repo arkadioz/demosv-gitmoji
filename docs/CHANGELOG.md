@@ -1,5 +1,16 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v5.0.10](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.9...v5.0.10) (2024-01-08) 🔖
+
+## 🔨 Refactor
+- [`f4e7ebe`](https://github.com/arkadioz/demosv-gitmoji/commit/f4e7ebe) this is the subject
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: Mon Jan 08 2024 22:29:23 GMT+0000 (Coordinated Universal Time)
+  - 📃 Description:
+    - this is the description:
+    - first linebreak was made
+    - second linebreak was made
+
 # 🎉 [v5.0.9](https://github.com/arkadioz/demosv-gitmoji/compare/v5.0.8...v5.0.9) (2024-01-08) 🔖
 
 ## 🔨 Refactor
