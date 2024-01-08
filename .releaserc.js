@@ -41,12 +41,12 @@ module.exports = {
         }
       }
     ],
-    '@semantic-release/github',
-                                   "branches": [
-                                     "main"
-                                   ]
+    '@semantic-release/github'
   ],
      "branches": [
        "main"
-     ]
+     ],
+       branches: [
+         "main"
+       ]
 }
