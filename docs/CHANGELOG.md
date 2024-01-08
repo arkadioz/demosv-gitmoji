@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.3](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.2...v3.0.3) (2024-01-08)
+
+## 🔨 Refactor
+- [`889a39f`](https://github.com/arkadioz/demosv-gitmoji/commit/889a39f) author name: unknown author email: davv913@hotmail.com  return the default template back to the working config
+
 # [v3.0.2](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.1...v3.0.2) (2024-01-08)
 
 ## 🐛 Bug Fixes
