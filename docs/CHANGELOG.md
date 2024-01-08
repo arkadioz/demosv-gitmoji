@@ -1,5 +1,11 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.12](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.11...v3.0.12) (2024-01-08)
+
+## 🐛 Bug Fixes
+- [`9c48cc2`](https://github.com/arkadioz/demosv-gitmoji/commit/9c48cc2)  remove unused config from template. #2 - author: arkadioz
+(Issues: [`#2`](https://github.com/arkadioz/demosv-gitmoji/issues/))
+
 # [v3.0.11](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.10...v3.0.11) (2024-01-08)
 
 ## 🐛 Bug Fixes
