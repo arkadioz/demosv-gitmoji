@@ -1,5 +1,10 @@
 # Gitmoji Changelog 🎈
 
+# [v3.0.11](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.10...v3.0.11) (2024-01-08)
+
+## 🐛 Bug Fixes
+- [`0e779ab`](https://github.com/arkadioz/demosv-gitmoji/commit/0e779ab)  try to show author and date another way - author: arkadioz - date:     - author another way:
+
 # [v3.0.10](https://github.com/arkadioz/demosv-gitmoji/compare/v3.0.9...v3.0.10) (2024-01-08)
 
 ## 🐛 Bug Fixes
