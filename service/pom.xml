@@ -7,7 +7,7 @@
     <parent>
         <artifactId>demosv-gitmoji</artifactId>
         <groupId>com.davv</groupId>
-        <version>4.1.16</version>
+        <version>4.1.17</version>
     </parent>
 
     <artifactId>service</artifactId>
