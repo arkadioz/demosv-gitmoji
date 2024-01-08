@@ -7,6 +7,10 @@ const tplFile = path.resolve(__dirname, '/lib/assets/templates/default-template.
 const commitTemplate = path.resolve(__dirname, '/lib/assets/templates/commit-template.hbs')
 
 module.exports = {
+  branches: [
+    "main",
+    { "name": "cookie", "prerelease": true }
+  ],
   plugins: [
     [
       'semantic-release-gitmoji', {
@@ -39,12 +43,5 @@ module.exports = {
       }
     ],
     '@semantic-release/github',
-  ],
-     "branches": [
-       "main",
-       {
-         "name": "beta",
-         "prerelease": true
-       }
-     ]
+  ]
 }
