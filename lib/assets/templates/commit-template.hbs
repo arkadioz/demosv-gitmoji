@@ -2,8 +2,5 @@
   - &#129489;&#8205;&#128187; Author: {{this.author.name}} &#x1F920;
   - &#x1F4C5; Date: {{formatDateCol this.committer.date}}
 {{#if body}}
-  - 📃 Description:
-{{#each (split body)}}
-    - {{this}}
-{{/each}}
+  - 📃 Description: {{body}}
 {{/if}}
