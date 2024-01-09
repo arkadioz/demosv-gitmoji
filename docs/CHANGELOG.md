@@ -1,5 +1,17 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v6.0.2](https://github.com/arkadioz/demosv-gitmoji/compare/v6.0.1...v6.0.2) (2024-01-09) 🔖
+
+## 🐛 Bug Fixes
+- [`54fa292`](https://github.com/arkadioz/demosv-gitmoji/commit/54fa292) fix the default template
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 19:12:27
+
+## 🔨 Refactor
+- [`eeb10be`](https://github.com/arkadioz/demosv-gitmoji/commit/eeb10be) update readme
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 18:47:23
+
 # 🎉 [v6.0.1](https://github.com/arkadioz/demosv-gitmoji/compare/v6.0.0...v6.0.1) (2024-01-08) 🔖
 
 ## 🔨 Refactor
