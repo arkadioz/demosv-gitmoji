@@ -1,3 +1,3 @@
 # demosv-gitmoji
 
-## Project for testing gitmoji.
+## Project for testing gitmoji
