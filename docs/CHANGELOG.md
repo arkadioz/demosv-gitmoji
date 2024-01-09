@@ -1,5 +1,12 @@
 # Gitmoji Changelog 🎈
 
+# 🎉 [v6.0.3](https://github.com/arkadioz/demosv-gitmoji/compare/v6.0.2...v6.0.3) (2024-01-09) 🔖
+
+## 🔨 Refactor
+- [`5966336`](https://github.com/arkadioz/demosv-gitmoji/commit/5966336) update readme
+  - &#129489;&#8205;&#128187; Author: arkadioz &#x1F920;
+  - &#x1F4C5; Date: 01/08/2024 19:23:11
+
 # 🎉 [v6.0.2](https://github.com/arkadioz/demosv-gitmoji/compare/v6.0.1...v6.0.2) (2024-01-09) 🔖
 
 ## 🐛 Bug Fixes
